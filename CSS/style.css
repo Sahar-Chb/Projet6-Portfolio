@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+
+*{
+font-family: 'Rajdhani', sans-serif;
+}
+
+/* navbar start */
+.section-1{
+  background-color: #0F0E18;
+  padding: 20px 0px;
+}
+
+/* navbar end */
+
+/* Home start */
+
+.cover{
+  background-color: #0F0E18;
+  padding-top: 100px;
+}
+
+.home-font{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.list{
+  color: white !important;
+  font-size: 16px;
+  font-weight: 400px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px white;
+}
+
+.list:hoover{
+  color: #F7B940 !important;
+}
+
+.h1-title{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.box-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-guy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-about{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 40px;
+  border-bottom: 1px solid white;
+  padding-bottom: 4px;
+}
+/* Home end */
+
+/* about me start */
+
+.cover-2{
+  background-color: #1B1F23;
+  padding: 80px 0px;
+}
+
+.about-text{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 28px;
+}
+
+.second-guy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.h2-title{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  margin-top: 32px;
+}
+.box-2{
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.par-about{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 16px;
+  margin-top: 16px;
+  color: #abc4cc;
+}
+
+.started{
+  background-color: #F7B940;
+  font-size: 20px;
+  padding: 12px 26px;
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+}
+/* about me end */
+
+
+/* my skills start */
+.cover-3{
+  background-color: #102a3c;
+  padding: 80px 0px;
+}
+
+.section-subtitle {
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.section-title {
+  font-size: 45px;
+  margin-top: 32px;
+  font-weight: 700;
+}
+
+.progress-text {
+  font-size: 16px;
+}
+/* my skills end */
+
+
+/* what we do start */
+.cover-4{
+  background-color:#1a1f22;
+  padding: 80px 0px;
+}
+
+
+.wwd-title{
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.wwd-par{
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.box:hover{
+  background-color: #f7ba40cb;
+}
+
+.bordure{
+  border-right: 0.5px solid #F7B940;
+  border-bottom: 0.5px solid #F7B940;
+}
+
+.bordure-1{
+  border-bottom: 0.5px solid #F7B940;
+}
+
+.bordure-2{
+  border-right: 0.5px solid #F7B940;
+}
+
+@media only screen and (max-width:600px) {
+  .service-item {
+    border: none;
+  }
+}
+/* what we do end */
+
+
+/* contact start */
+.inp{
+  background-color: transparent;
+  border: 1px solid rgb(133, 132, 132);
+  border-radius: 6px;
+}
+
+.image-bord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 70px;
+}
+
+.contact-text{
+  font-size: 24px;
+}
+
+.footer{
+  background-color: #0f0f19;
+}
+/* contact end */
+
